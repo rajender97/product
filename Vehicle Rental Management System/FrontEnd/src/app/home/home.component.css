@@ -1,0 +1,29 @@
+.Navbar{
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+   
+}
+.Button{
+    float: right;
+    
+}
+a { 
+    color: white;
+    text-decoration: none;
+    line-height: 1em;
+    padding: 15px;
+    padding-right: 25px;
+}
+  a:active {
+    color: red;
+    margin-right: 10px;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+  }
+ 
+  .logout{
+    float: right;
+  }

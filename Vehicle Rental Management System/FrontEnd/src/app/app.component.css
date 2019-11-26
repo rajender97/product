@@ -1,0 +1,16 @@
+.Total{
+    background-color: rgb(238, 238, 221);
+   margin-top: 0%;
+}
+#Heading{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image{
+    display: block;
+   margin-left: auto;
+  margin-right: auto;
+  
+  
+}

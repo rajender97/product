@@ -1,0 +1,12 @@
+<mbsc-page theme="ios" lang="en">
+    <mbsc-form [options]="formSettings">
+        <mbsc-listview [options]="listviewSettings">
+            <mbsc-listview-item *ngFor="let item of todo">{{ item.text }}
+                <div class="md-timestamp mbsc-italic">{{ item.time }}</div>
+            </mbsc-listview-item>
+        </mbsc-listview>
+        <div class="mbsc-btn-group-block">
+            <mbsc-button (click)="add()">Add new item</mbsc-button>
+        </div>
+    </mbsc-form>
+</mbsc-page>

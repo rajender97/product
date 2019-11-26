@@ -1,0 +1,17 @@
+<mat-toolbar class="Navbar">
+    <div class="Button">
+        <!-- <a href="ManageVehicle">Manage Vehicle</a> -->
+        <button mat-button [matMenuTriggerFor]="menu">Manage Vehicles</button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Add Vehicles</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+
+
+         <a href="View Returns">View Returns</a>
+    </div>
+    <div class="logout">
+         <a href="Logout">logout</a>
+    </div>   
+        
+</mat-toolbar>
